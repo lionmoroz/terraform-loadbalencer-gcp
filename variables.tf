@@ -1,6 +1,6 @@
 variable project_name {
   type        = string
-  default     = "engaged-diode-380415"
+  default     = ""
 
 }
 
