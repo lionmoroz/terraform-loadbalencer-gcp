@@ -124,13 +124,13 @@ variable google_firewall_name {
 
 variable ssh_user {
   type        = string
-  default     = "vlad"
+  default     = ""
 }
 
 variable public_key_path {
-    default = "/home/vlad/.ssh/google_inst_key.pub"   ##public key with path
+    default = ""   ##public key with path
 }
 
 variable private_key_path{
-    default = "/home/vlad/.ssh/google_inst_key"
+    default = ""
 }
